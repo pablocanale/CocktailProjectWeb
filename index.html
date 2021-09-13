@@ -19,6 +19,47 @@
 
             <nav class="flex-column">
 
+                <div id="nav-title" class="flex-row center">
+                    <div class="flex-column center">
+                        <span class="material-icons-outlined cocktail">local_bar</span>
+                    </div>
+                    <div class="">
+                        <p>OWN COCKTAIL</p>
+                    </div>
+                </div>
+
+                <div class="flex-row center arrow-down" onclick="toggleMenu()">
+                    <span class="material-icons-two-tone">
+                        expand_more
+                    </span>
+                </div>
+
+
+                <ul class="text-center">
+                    <div class="flex-column">
+                        <a href="index.html">
+                            <li>HOME</li>
+                        </a>
+                        <a href="cocktails.html">
+                            <li>COCKTAILS</li>
+                        </a>
+                        <a href="#">
+                            <li>RECIPES</li>
+                        </a>
+                        <a href="#">
+                            <li>ABOUT US</li>
+                        </a>
+                        <a href="#">
+                            <li class="arrow-up">
+                                <div onclick="toggleMenu()">
+                                    <span class="material-icons-two-tone">
+                                        expand_less
+                                    </span>
+                                </div>
+                            </li>
+                        </a>
+                    </div>
+                </ul>
             </nav>
 
             <main>
