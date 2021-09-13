@@ -27,3 +27,29 @@
     place-content: center center;
     align-items: center;
 }
+
+@media screen and (min-width: 1280px) {
+    
+    #main{
+        flex-direction: row;
+    }
+
+    .arrow-up, .arrow-down{
+        display: none;
+    }
+
+    nav{
+        padding: 20px;
+        margin: 20px;
+        width: 30%;
+    }
+    .container-screen footer{
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px
+    }
+    #socials > a {
+        margin-right: 20px;
+    }
+
+}
