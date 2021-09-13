@@ -101,3 +101,48 @@ footer{
     font-size: xxx-large;
     }
 
+    @media screen and (min-width: 1280px) {
+        nav ul{
+            position: static;
+        }
+        body{
+            font-size: small;
+            
+        }
+        nav, footer, #socials{
+            font-size: large;
+        }
+
+        #nav-title, #nav-title .cocktail {
+            font-size: x-large;
+        }
+        #nav-title .cocktail{
+            font-size: xx-large;
+        }
+        
+        #nav-title{
+            margin-bottom: 30px;
+        }
+        nav li{
+            padding: 15px;
+        }
+
+        .wrapper{
+            min-height: 100%;
+
+        }
+        main{
+            padding: 0;
+            margin: 20px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
